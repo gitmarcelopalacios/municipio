@@ -10,8 +10,8 @@ class Persona(models.Model):
     numconiva=models.CharField('Número de CUIT', max_length=20, default=' ')
     avatar = models.ImageField(upload_to='fotoalumno', blank=True, null=True)
     class Meta:
-        verbose_name = 'Alumno'
-        verbose_name_plural = 'Alumnos'
+        verbose_name = 'Alumno Emprendedor'
+        verbose_name_plural = 'Alumnos Emprendedores'
         
     
     

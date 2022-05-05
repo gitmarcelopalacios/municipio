@@ -8,7 +8,7 @@ from .models import Cuenta
 class DetalleCuentaAdmin(admin.ModelAdmin):
     list_display = (
         'id',
-        'asiento'
+        'asiento',
         'fecha',
         'cuenta',
         'name',        
@@ -16,3 +16,4 @@ class DetalleCuentaAdmin(admin.ModelAdmin):
     )
 
 admin.site.register(DetalleCuenta, DetalleCuentaAdmin)
+#admin.site.register(DetalleCuenta)

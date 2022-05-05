@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'aplicaciones.tipodocumento',
     'aplicaciones.condicioniva',
     'aplicaciones.cuenta',
-  #  'aplicaciones.detallecuenta',
+    'aplicaciones.detallecuenta',
 ]
 
 MIDDLEWARE = [
