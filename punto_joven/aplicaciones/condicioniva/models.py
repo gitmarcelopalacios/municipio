@@ -6,7 +6,7 @@ class CondicionIVA(models.Model):
     class Meta:
         verbose_name = 'Condición de I.V.A.'
         verbose_name_plural = 'Condiciones de I.V.A.'   
-        ordering = ['name']
+        ordering = ['-id']
    
     def __str__(self):
         #return str(self.id)+' - '+self.nombre_completo

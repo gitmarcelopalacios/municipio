@@ -12,9 +12,7 @@ class Persona(models.Model):
     class Meta:
         verbose_name = 'Alumno Emprendedor'
         verbose_name_plural = 'Alumnos Emprendedores'
-        
-    
-    
+
     def __str__(self):
         #return str(self.id)+' - '+self.nombre_completo
         return self.name
